@@ -1,0 +1,292 @@
+@charset "UTF-8";
+* {
+  font-family: "Open Sans", sans-serif;
+  margin: 0; }
+
+header {
+  min-height: 50px;
+  background-color: #C4C4C4;
+  padding-top: 13px; }
+  header .sale {
+    font-weight: 400;
+    font-size: 14px;
+    color: #000000;
+    text-transform: uppercase;
+    display: block;
+    text-align: center; }
+  header .reg {
+    font-weight: 400;
+    font-size: 14px;
+    text-align: center;
+    color: #000000;
+    margin-left: 30px; }
+  header .heart {
+    margin-left: 20px; }
+  header .bag {
+    font-weight: 400;
+    font-size: 14px;
+    text-align: center;
+    color: #000000;
+    margin-left: 15px; }
+
+.promo {
+  min-height: 1060px;
+  padding: 21px 0 40px 0; }
+  .promo_logo {
+    display: block;
+    margin: 0 auto; }
+
+nav {
+  margin-top: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around; }
+  nav .nav_link {
+    text-decoration: none;
+    color: #000000;
+    font-weight: 400;
+    font-size: 18px; }
+    nav .nav_link:hover {
+      text-decoration: underline; }
+
+.image {
+  margin: 18px 0 26px 0;
+  width: 25%; }
+
+.collection_photo {
+  display: block;
+  margin: 0 auto;
+  width: 98%; }
+.collection_descr {
+  margin-top: 24px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 25px;
+  text-align: center; }
+.collection_btn {
+  margin-left: 80px;
+  margin-top: 32px;
+  width: 215px;
+  height: 57px;
+  border: 1px solid #000000;
+  background-color: #ffff;
+  font-weight: 600;
+  font-size: 14px;
+  text-align: center;
+  text-transform: uppercase;
+  -webkit-transition: all 0.6s;
+  transition: all 0.6s; }
+  .collection_btn:hover {
+    background-color: black;
+    color: white; }
+
+.arrivals {
+  min-height: 750px; }
+  .arrivals_heading {
+    font-size: 36px;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 600; }
+
+.product {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  margin-top: 70px; }
+  .product .color_type {
+    font-weight: 600;
+    font-size: 12px;
+    margin: 15px 0 0 20px;
+    text-transform: uppercase;
+    color: #C4C4C4;
+    line-height: 2; }
+  .product .product_name {
+    font-weight: 600;
+    font-size: 14px;
+    margin-left: 20px; }
+
+.layers {
+  min-height: 740px; }
+  .layers_title {
+    font-weight: 600;
+    font-size: 24px;
+    text-transform: uppercase;
+    margin-top: 495px; }
+  .layers_descr {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px; }
+  .layers_btn {
+    width: 224px;
+    height: 57px;
+    border: 1px solid #000000;
+    font-weight: 600;
+    font-size: 14px;
+    text-align: center;
+    text-transform: uppercase;
+    background-color: #ffff;
+    margin-top: 37px;
+    -webkit-transition: all 0.6s;
+    transition: all 0.6s; }
+    .layers_btn:hover {
+      background-color: black;
+      color: white; }
+  .layers_img {
+    margin-left: 40px; }
+
+.pardina {
+  padding-top: 65px;
+  min-height: 750px; }
+  .pardina .pardinac {
+    height: 642px;
+    background: url("../img/pardina/pardinaBG.jpg") center center/cover no-repeat; }
+  .pardina_text {
+    padding: 434px 0 0 903px; }
+  .pardina_button {
+    padding: 30px 0 0 892px; }
+  .pardina_btn {
+    width: 224px;
+    height: 57px;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 14px;
+    background-color: #ffff;
+    border: none;
+    -webkit-transition: all 0.6s;
+    transition: all 0.6s; }
+    .pardina_btn:hover {
+      background-color: black;
+      color: white; }
+
+.footer {
+  min-height: 340px;
+  padding-top: 30px;
+  background-color: #E5E5E5; }
+  .footer_heading {
+    font-weight: 700;
+    font-size: 18px;
+    text-transform: uppercase; }
+  .footer_text {
+    font-weight: 400;
+    font-size: 14px;
+    margin-top: 12px; }
+    .footer_text:nth-child(2) {
+      margin-top: 6px; }
+    .footer_text_link {
+      text-decoration: none;
+      color: #000000;
+      -webkit-transition: all 0.3s;
+      transition: all 0.3s; }
+      .footer_text_link:hover {
+        color: #848484; }
+  .footer_locator {
+    display: block;
+    text-decoration: none;
+    color: #000000;
+    margin-top: 45px;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s; }
+    .footer_locator:hover {
+      color: #848484; }
+    .footer_locator_img {
+      margin-right: 5px; }
+  .footer_img {
+    margin-right: 2px;
+    width: 13%; }
+
+/*         12 часов завтра площадка черная лада калина  */
+@media (max-width: 1400px) {
+  .promo .image_photo {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    width: 475%; }
+
+  .pardina_text {
+    padding: 470px 0 0 780px; }
+  .pardina_button {
+    padding: 20px 0 0 780px; } }
+@media (max-width: 1200px) {
+  header .sale {
+    font-size: 12px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    margin-top: 5px; }
+  header .reg {
+    margin-left: 15px; }
+
+  .arrivals .product {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    display: block;
+    text-align: center; }
+    .arrivals .product_item {
+      margin-top: 40px; }
+
+  .collection_btn {
+    margin-left: 50px; }
+
+  .layers_img {
+    margin-top: 160px; }
+    .layers_img .photo {
+      width: 120%; }
+
+  .pardina_text {
+    padding: 500px 0 0 630px; }
+  .pardina_button {
+    padding: 20px 0 0 630px; } }
+@media (max-width: 991px) {
+  .promo .image_photo {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    width: 465%; }
+
+  header .sale {
+    font-size: 12px;
+    margin: 5px 0 0 35px; }
+  header .reg {
+    font-size: 10px;
+    margin-left: 20px; }
+  header .bag {
+    font-size: 10px;
+    margin-left: 10px; }
+
+  .collection_btn {
+    margin-left: 9px; }
+
+  .layers_img {
+    margin-top: 150px; }
+    .layers_img .photo {
+      width: 130%; }
+  .layers_btn {
+    width: 150px;
+    height: 50px; }
+  .layers_title {
+    margin-top: 380px; }
+
+  .pardina_text {
+    padding: 500px 0 0 410px; }
+  .pardina_button {
+    padding: 20px 0 0 410px; }
+
+  .footer_img {
+    width: 19%; } }
+
+/*# sourceMappingURL=style.css.map */
